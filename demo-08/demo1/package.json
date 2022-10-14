@@ -1,0 +1,38 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ahooks": "^3.7.1",
+    "antd": "^4.23.5",
+    "axios": "^1.1.2",
+    "immutability-helper": "^3.1.1",
+    "mockjs": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router": "^6.4.2",
+    "react-router-dom": "^6.4.2",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/mockjs": "^1.0.7",
+    "@types/node": "^18.8.3",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
